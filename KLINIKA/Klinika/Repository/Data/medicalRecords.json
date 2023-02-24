@@ -1,0 +1,29 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.UserModel.MedicalRecord, Klinika]], mscorlib",
+  "$values": [
+    {
+      "$type": "Model.UserModel.MedicalRecord, Klinika",
+      "examination": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationModel.Examination, Klinika]], mscorlib",
+        "$values": []
+      },
+      "bloodType": "A+",
+      "height": 180.0,
+      "weight": 100.0,
+      "alergies": "PENICILIN",
+      "id": 12345
+    },
+    {
+      "$type": "Model.UserModel.MedicalRecord, Klinika",
+      "examination": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationModel.Examination, Klinika]], mscorlib",
+        "$values": []
+      },
+      "bloodType": "B+",
+      "height": 180.0,
+      "weight": 100.0,
+      "alergies": "NEMA",
+      "id": 15315
+    }
+  ]
+}

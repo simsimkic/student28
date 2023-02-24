@@ -1,0 +1,234 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.UserModel.Director, Klinika]], mscorlib",
+  "$values": [
+    {
+      "$type": "Model.UserModel.Director, Klinika",
+      "room": {
+        "$type": "Model.RoomModel.Room, Klinika",
+        "roomEquipment": {
+          "$type": "System.Collections.Generic.List`1[[Model.RoomModel.RoomEquipment, Klinika]], mscorlib",
+          "$values": [
+            {
+              "$type": "Model.RoomModel.RoomEquipment, Klinika",
+              "amountInRoom": 10,
+              "equipment": {
+                "$type": "Model.RoomModel.Equipment, Klinika",
+                "equipmentId": 1,
+                "equipmentName": "stolica",
+                "equipmentAmount": 100,
+                "equipmentAvailable": 60
+              }
+            },
+            {
+              "$type": "Model.RoomModel.RoomEquipment, Klinika",
+              "amountInRoom": 20,
+              "equipment": {
+                "$type": "Model.RoomModel.Equipment, Klinika",
+                "equipmentId": 2,
+                "equipmentName": "zavoj",
+                "equipmentAmount": 60,
+                "equipmentAvailable": 35
+              }
+            },
+            {
+              "$type": "Model.RoomModel.RoomEquipment, Klinika",
+              "amountInRoom": 30,
+              "equipment": {
+                "$type": "Model.RoomModel.Equipment, Klinika",
+                "equipmentId": 3,
+                "equipmentName": "stetoskop",
+                "equipmentAmount": 80,
+                "equipmentAvailable": 45
+              }
+            }
+          ]
+        },
+        "workTime": {
+          "$type": "Model.WorkTimeModel.WorkTime, Klinika",
+          "user": null,
+          "workTimeId": 1236,
+          "room": {
+            "$type": "Model.RoomModel.Room, Klinika",
+            "roomEquipment": {
+              "$type": "System.Collections.Generic.List`1[[Model.RoomModel.RoomEquipment, Klinika]], mscorlib",
+              "$values": [
+                {
+                  "$type": "Model.RoomModel.RoomEquipment, Klinika",
+                  "amountInRoom": 10,
+                  "equipment": {
+                    "$type": "Model.RoomModel.Equipment, Klinika",
+                    "equipmentId": 1,
+                    "equipmentName": "stolica",
+                    "equipmentAmount": 100,
+                    "equipmentAvailable": 60
+                  }
+                },
+                {
+                  "$type": "Model.RoomModel.RoomEquipment, Klinika",
+                  "amountInRoom": 20,
+                  "equipment": {
+                    "$type": "Model.RoomModel.Equipment, Klinika",
+                    "equipmentId": 2,
+                    "equipmentName": "zavoj",
+                    "equipmentAmount": 60,
+                    "equipmentAvailable": 35
+                  }
+                },
+                {
+                  "$type": "Model.RoomModel.RoomEquipment, Klinika",
+                  "amountInRoom": 30,
+                  "equipment": {
+                    "$type": "Model.RoomModel.Equipment, Klinika",
+                    "equipmentId": 3,
+                    "equipmentName": "stetoskop",
+                    "equipmentAmount": 80,
+                    "equipmentAvailable": 45
+                  }
+                }
+              ]
+            },
+            "workTime": null,
+            "roomNumber": 1,
+            "roomType": 1,
+            "roomAvailable": true,
+            "roomSize": 30,
+            "bedNumber": 20,
+            "bedsAvailable": 10
+          },
+          "appointment": {
+            "$type": "System.Collections.Generic.List`1[[Model.WorkTimeModel.Appointment, Klinika]], mscorlib",
+            "$values": [
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 9,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T12:30:00",
+                  "endTime": "2020-06-02T13:00:00"
+                },
+                "available": true
+              },
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 10,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T13:00:00",
+                  "endTime": "2020-06-02T13:30:00"
+                },
+                "available": true
+              },
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 11,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T13:30:00",
+                  "endTime": "2020-06-02T14:00:00"
+                },
+                "available": true
+              },
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 12,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T14:00:00",
+                  "endTime": "2020-06-02T14:30:00"
+                },
+                "available": true
+              },
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 13,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T14:30:00",
+                  "endTime": "2020-06-02T15:00:00"
+                },
+                "available": true
+              },
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 14,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T15:00:00",
+                  "endTime": "2020-06-02T15:30:00"
+                },
+                "available": true
+              },
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 15,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T15:30:00",
+                  "endTime": "2020-06-02T16:00:00"
+                },
+                "available": true
+              },
+              {
+                "$type": "Model.WorkTimeModel.Appointment, Klinika",
+                "appointmentId": 16,
+                "date": {
+                  "$type": "Model.WorkTimeModel.Date, Klinika",
+                  "date": "2020-06-02T12:30:00",
+                  "startTime": "2020-06-02T16:00:00",
+                  "endTime": "2020-06-02T16:30:00"
+                },
+                "available": true
+              }
+            ]
+          },
+          "startDate": "2020-06-02T12:30:00",
+          "endDate": "2020-06-02T16:30:00",
+          "startTime": "2020-06-02T12:30:00",
+          "endTime": "2020-06-02T16:30:00",
+          "working": true
+        },
+        "roomNumber": 1,
+        "roomType": 0,
+        "roomAvailable": true,
+        "roomSize": 30,
+        "bedNumber": 20,
+        "bedsAvailable": 10
+      },
+      "employeeId": 1234,
+      "adress": {
+        "$type": "Model.UserModel.Adress, Klinika",
+        "city": {
+          "$type": "Model.UserModel.City, Klinika",
+          "country": {
+            "$type": "Model.UserModel.Country, Klinika",
+            "name": "Srbija"
+          },
+          "name": "Novi Sad",
+          "postcode": 21000
+        },
+        "name": "Narodnog Fronta",
+        "number": 11
+      },
+      "feedback": null,
+      "name": "Dimitrije",
+      "surname": "Bulaja",
+      "personalId": 1234,
+      "dateOfBirth": "1998-11-11T00:00:00",
+      "gender": 0,
+      "martialStatus": 2,
+      "username": "dimitrije",
+      "password": "dimitrije",
+      "email": "dimitrije@gmail.com",
+      "phoneNumber": 12432,
+      "appGraded": false,
+      "userLogged": false
+    }
+  ]
+}

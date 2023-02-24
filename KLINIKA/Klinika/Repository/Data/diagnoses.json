@@ -1,0 +1,72 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.ExaminationModel.Diagnosis, Klinika]], mscorlib",
+  "$values": [
+    {
+      "$type": "Model.ExaminationModel.Diagnosis, Klinika",
+      "symptoms": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationModel.Symptom, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "kasalj"
+          },
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "temperatura"
+          },
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "glavobolja"
+          },
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "dijareja"
+          }
+        ]
+      },
+      "description": "COVID-19(Korona-virus)"
+    },
+    {
+      "$type": "Model.ExaminationModel.Diagnosis, Klinika",
+      "symptoms": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationModel.Symptom, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "nadutost"
+          },
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "pritisak"
+          }
+        ]
+      },
+      "description": "Mononukleoza"
+    },
+    {
+      "$type": "Model.ExaminationModel.Diagnosis, Klinika",
+      "symptoms": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationModel.Symptom, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "povracanje"
+          },
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "svrab"
+          },
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "dezorijentisanost"
+          },
+          {
+            "$type": "Model.ExaminationModel.Symptom, Klinika",
+            "symptomName": "malaksalost"
+          }
+        ]
+      },
+      "description": "Dijabetes tip 2"
+    }
+  ]
+}

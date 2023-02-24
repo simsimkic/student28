@@ -1,0 +1,26 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.RoomModel.Equipment, Klinika]], mscorlib",
+  "$values": [
+    {
+      "$type": "Model.RoomModel.Equipment, Klinika",
+      "equipmentId": 1,
+      "equipmentName": "stolica",
+      "equipmentAmount": 100,
+      "equipmentAvailable": 60
+    },
+    {
+      "$type": "Model.RoomModel.Equipment, Klinika",
+      "equipmentId": 2,
+      "equipmentName": "zavoj",
+      "equipmentAmount": 60,
+      "equipmentAvailable": 35
+    },
+    {
+      "$type": "Model.RoomModel.Equipment, Klinika",
+      "equipmentId": 3,
+      "equipmentName": "stetoskop",
+      "equipmentAmount": 80,
+      "equipmentAvailable": 45
+    }
+  ]
+}

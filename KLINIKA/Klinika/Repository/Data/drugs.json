@@ -1,0 +1,223 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Drug, Klinika]], mscorlib",
+  "$values": [
+    {
+      "$type": "Model.DrugModel.Drug, Klinika",
+      "ingredients": {
+        "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Ingredient, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "paracetamol 500mg"
+          },
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "doksiciklin 500mg"
+          },
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "askorbinska kiselina 500mg"
+          }
+        ]
+      },
+      "alternativeDrug": null,
+      "allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Allergens, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.DrugModel.Allergens, Klinika",
+            "allergenName": "DOKSICIKLINI"
+          },
+          {
+            "$type": "Model.DrugModel.Allergens, Klinika",
+            "allergenName": "PARACETAMOLI"
+          }
+        ]
+      },
+      "drugId": 12843,
+      "name": "Palitrex",
+      "amount": 40,
+      "approved": true
+    },
+    {
+      "$type": "Model.DrugModel.Drug, Klinika",
+      "ingredients": {
+        "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Ingredient, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "paracetamol 1000mg"
+          },
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "bromazepam 6mg"
+          }
+        ]
+      },
+      "alternativeDrug": {
+        "$type": "Model.DrugModel.AlternativeDrug, Klinika",
+        "drug": {
+          "$type": "Model.DrugModel.Drug, Klinika",
+          "ingredients": {
+            "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Ingredient, Klinika]], mscorlib",
+            "$values": [
+              {
+                "$type": "Model.DrugModel.Ingredient, Klinika",
+                "ingredientName": "paracetamol 500mg"
+              },
+              {
+                "$type": "Model.DrugModel.Ingredient, Klinika",
+                "ingredientName": "doksiciklin 500mg"
+              },
+              {
+                "$type": "Model.DrugModel.Ingredient, Klinika",
+                "ingredientName": "askorbinska kiselina 500mg"
+              }
+            ]
+          },
+          "alternativeDrug": null,
+          "allergens": {
+            "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Allergens, Klinika]], mscorlib",
+            "$values": [
+              {
+                "$type": "Model.DrugModel.Allergens, Klinika",
+                "allergenName": "DOKSICIKLINI"
+              },
+              {
+                "$type": "Model.DrugModel.Allergens, Klinika",
+                "allergenName": "PARACETAMOLI"
+              }
+            ]
+          },
+          "drugId": 12843,
+          "name": "Palitrex",
+          "amount": 40,
+          "approved": true
+        }
+      },
+      "allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Allergens, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.DrugModel.Allergens, Klinika",
+            "allergenName": "BENDOZODIAZEPINI"
+          }
+        ]
+      },
+      "drugId": 99239,
+      "name": "Palitrex",
+      "amount": 15,
+      "approved": false
+    },
+    {
+      "$type": "Model.DrugModel.Drug, Klinika",
+      "ingredients": {
+        "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Ingredient, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "bactrim 500mg"
+          },
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "penicilin 500mg"
+          },
+          {
+            "$type": "Model.DrugModel.Ingredient, Klinika",
+            "ingredientName": "amoksiciklin 1000mg"
+          }
+        ]
+      },
+      "alternativeDrug": {
+        "$type": "Model.DrugModel.AlternativeDrug, Klinika",
+        "drug": {
+          "$type": "Model.DrugModel.Drug, Klinika",
+          "ingredients": {
+            "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Ingredient, Klinika]], mscorlib",
+            "$values": [
+              {
+                "$type": "Model.DrugModel.Ingredient, Klinika",
+                "ingredientName": "paracetamol 1000mg"
+              },
+              {
+                "$type": "Model.DrugModel.Ingredient, Klinika",
+                "ingredientName": "bromazepam 6mg"
+              }
+            ]
+          },
+          "alternativeDrug": {
+            "$type": "Model.DrugModel.AlternativeDrug, Klinika",
+            "drug": {
+              "$type": "Model.DrugModel.Drug, Klinika",
+              "ingredients": {
+                "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Ingredient, Klinika]], mscorlib",
+                "$values": [
+                  {
+                    "$type": "Model.DrugModel.Ingredient, Klinika",
+                    "ingredientName": "paracetamol 500mg"
+                  },
+                  {
+                    "$type": "Model.DrugModel.Ingredient, Klinika",
+                    "ingredientName": "doksiciklin 500mg"
+                  },
+                  {
+                    "$type": "Model.DrugModel.Ingredient, Klinika",
+                    "ingredientName": "askorbinska kiselina 500mg"
+                  }
+                ]
+              },
+              "alternativeDrug": null,
+              "allergens": {
+                "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Allergens, Klinika]], mscorlib",
+                "$values": [
+                  {
+                    "$type": "Model.DrugModel.Allergens, Klinika",
+                    "allergenName": "DOKSICIKLINI"
+                  },
+                  {
+                    "$type": "Model.DrugModel.Allergens, Klinika",
+                    "allergenName": "PARACETAMOLI"
+                  }
+                ]
+              },
+              "drugId": 12843,
+              "name": "Palitrex",
+              "amount": 40,
+              "approved": true
+            }
+          },
+          "allergens": {
+            "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Allergens, Klinika]], mscorlib",
+            "$values": [
+              {
+                "$type": "Model.DrugModel.Allergens, Klinika",
+                "allergenName": "BENDOZODIAZEPINI"
+              }
+            ]
+          },
+          "drugId": 99239,
+          "name": "Palitrex",
+          "amount": 15,
+          "approved": false
+        }
+      },
+      "allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.DrugModel.Allergens, Klinika]], mscorlib",
+        "$values": [
+          {
+            "$type": "Model.DrugModel.Allergens, Klinika",
+            "allergenName": "BACTRIM"
+          },
+          {
+            "$type": "Model.DrugModel.Allergens, Klinika",
+            "allergenName": "LAKTOZA"
+          }
+        ]
+      },
+      "drugId": 18482,
+      "name": "Palitrex",
+      "amount": 60,
+      "approved": true
+    }
+  ]
+}
